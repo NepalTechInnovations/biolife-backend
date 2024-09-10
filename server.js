@@ -31,7 +31,7 @@ app.use('/api/v1/review', reviewRoutes);
 
 //default route
 app.get('/', (req, res) => {
-    res.json("Welcome to BilLife MarketPlace😊");
+    res.json("Welcome to BilLife MarketPlace testing 😊");
 });
 
 app.listen(port, () => {
